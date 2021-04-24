@@ -22,7 +22,7 @@ pipeline {
 
             stage ('deploy') {
                    steps {
-                           sh "sudo cp  /var/lib/jenkins/workspace/pipe3/target/vlc2.war  /usr/share/tomcat/webapps"
+                           sh "sudo cp  /var/lib/jenkins/workspace/pipe4/target/vlc2.war  /usr/share/tomcat/webapps"
                          } 
                         }
            }
